@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:wght@100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="background-menu-mobil"></div>
+  <div class="header-container">
+    <header class="header">
+      <img src="img/logo-1.svg" alt="логотип" class="header__logo logo">
+
+      <nav class="header__nav">
+        <img src="img/icon-menu-burger.svg" alt="меню" class="button-menu-open">
+        <img src="img/icon-menu-close.svg" alt="меню" class="button-menu-close">
+        <ul class="header__menu">
+
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#windows">Окна</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#doors">Двери</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#actions">Акции</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#about">О нас</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#contacts">Контакты</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#questions">Вопросы</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="contacts">
+        <a class="header__button button button-order" href="#order">оставить заявку</a>
+        <a class="header__phone phone" href="tel:89003235545">Тел: 8(900)323-55-45</a>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="header-bottom">
+        <div class="header-bottom__content">
+          <h1 class="header-bottom__title">Пластиковые окна и двери по <span class="title-mod">самым низким ценам</span>
+            в
+            Липецке</h1>
+          <p class="header-bottom__content-text">Изготавливаем и устанавлливаем пластиковые окна и двери под ключ</p>
+
+          <div class="header-bottom__content-benefits">
+            <div class="benefits-item">
+              <img class="item-img" src="img/lightning.svg">
+              <p class="item-text">Рассрочка на 3 месяца без банка</p>
+            </div>
+            <div class="benefits-item">
+              <img class="item-img" src="img/lightning.svg">
+              <p class="item-text">Бесплатный замер и консультация</p>
+            </div>
+            <div class="benefits-item">
+              <img class="item-img" src="img/lightning.svg">
+              <p class="item-text">Гарантия до 5 лет</p>
+            </div>
+          </div>
+
+          <a class="header__bottom-button button button-consultation" href="#order">бесплатная консультация</a>
+        </div>
+
+        <div class="header__bottom-sale">
+          <p class="sale-accent">10% скидка</p>
+          <p class="sale-text">при заказе от 3 окон</p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+
+  <main class="main">
+    <div class="container">
+      <section class="menu-windows" id="windows">
+        <h2 class="section-title">Окна любого размера</h2>
+        <div class="tabs">
+          <ul class="tabs__container">
+            <li data-tab="tab-1" class="tab__title active-tab">Одностворчатые</li>
+            <li data-tab="tab-2" class="tab__title">Двухстворчатые</li>
+            <li data-tab="tab-3" class="tab__title">Трёхстворчатые</li>
+          </ul>
+
+          <div class="tabs__wrapper">
+
+            <div class="tabs__content" id="tab-1">
+
+              <div class="tabs-items">
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно одностворчатое Brbox-60</h3>
+                  <img class="card-img" src="img/window-1.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 10000 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-1"
+                    data-wrapper-modal="m1">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно одностворчатое Brbox-75</h3>
+                  <img class="card-img" src="img/window-1.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 11000 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-2"
+                    data-wrapper-modal="m1">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно одностворчатое Dx-M</h3>
+                  <img class="card-img" src="img/window-1.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-3"
+                    data-wrapper-modal="m1">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно одностворчатое Brbox-60</h3>
+                  <img class="card-img" src="img/window-1.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-1"
+                    data-wrapper-modal="m1">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно одностворчатое Dx-M</h3>
+                  <img class="card-img" src="img/window-1.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-2"
+                    data-wrapper-modal="m1">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно одностворчатое Brbox-75</h3>
+                  <img class="card-img" src="img/window-1.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-3"
+                    data-wrapper-modal="m1">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="tabs__content hidden-tab-content" id="tab-2">
+              <div class="tabs-items">
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно двухстворчатое Dx-M</h3>
+                  <img class="card-img" src="img/window-2.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-1"
+                    data-wrapper-modal="m2">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно двухстворчатое Dx-M</h3>
+                  <img class="card-img" src="img/window-2.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-2"
+                    data-wrapper-modal="m2">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно двухстворчатое Dx-M</h3>
+                  <img class="card-img" src="img/window-2.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-3"
+                    data-wrapper-modal="m2">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно двухстворчатое Dx-M</h3>
+                  <img class="card-img" src="img/window-2.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-1"
+                    data-wrapper-modal="m2">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="tabs__content hidden-tab-content" id="tab-3">
+              <div class="tabs-items">
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно трёхстворчетое Dx-M</h3>
+                  <img class="card-img" src="img/window-3.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-1"
+                    data-wrapper-modal="m3">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно трёхстворчетое Dx-M</h3>
+                  <img class="card-img" src="img/window-3.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-2"
+                    data-wrapper-modal="m3">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+
+                <div class="windows__option-1">
+                  <h3 class="card-title">Пластиковое окно трёхстворчетое Dx-M</h3>
+                  <img class="card-img" src="img/window-3.jpg" alt="окно одностворчатое" width="320">
+                  <p class="card-price">От 12300 руб/м<sup>2</sup></p>
+                  <button class="card-details" type="button" data-modal="modal-3"
+                    data-wrapper-modal="m3">Подробнее<img class="details-arrow" src="img/details-arrow.svg"></button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="window-modal-1" id="m1">
+            <div class="window__modal" id="modal-1">
+              <span class="button-close-modal">&times;</span>
+
+              <img class="modal-img" src="img/window-1.jpg" alt="окно одностворчатое" width="425">
+              <div class="modal__content">
+                <div class="modal__content-item">
+                  <p>Размер</p>
+                  <p>700*1400</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Створки</p>
+                  <p>одна поворотно-откидная</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Профиль</p>
+                  <p>Brbox-60</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Стеклопакет</p>
+                  <p>Стеклопакет Guard 24мм</p>
+                </div>
+                <div class="modal__content-item modal__prise">
+                  <p>От 12300 руб/м<sup>2</sup></p>
+                </div>
+
+                <a class="header__button button button-order" href="#order">оставить заявку</a>
+              </div>
+
+            </div>
+
+
+            <div class="window__modal" id="modal-2">
+              <span class="button-close-modal">&times;</span>
+
+              <img class="modal-img" src="img/window-1.jpg" alt="окно одностворчатое" width="425">
+              <div class="modal__content">
+                <div class="modal__content-item">
+                  <p class="">Размер</p>
+                  <p class="">700*1400</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Створки</p>
+                  <p>одна поворотно-откидная</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Профиль</p>
+                  <p>Brbox-75</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Стеклопакет</p>
+                  <p>Стеклопакет Guard 24мм</p>
+                </div>
+                <div class="modal__content-item modal__prise">
+                  <p>От 12300 руб/м<sup>2</sup></p>
+                </div>
+
+                <a class="header__button button button-order" href="#order">оставить заявку</a>
+              </div>
+
+            </div>
+
+            <div class="window__modal" id="modal-3">
+              <span class="button-close-modal">&times;</span>
+
+              <img class="modal-img" src="img/window-1.jpg" alt="окно одностворчатое" width="425">
+              <div class="modal__content">
+                <div class="modal__content-item">
+                  <p class="">Размер</p>
+                  <p class="">700*1400</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Створки</p>
+                  <p>одна поворотно-откидная</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Профиль</p>
+                  <p>Dx-M</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Стеклопакет</p>
+                  <p>Стеклопакет Guard 24мм</p>
+                </div>
+                <div class="modal__content-item modal__prise">
+                  <p>От 12300 руб/м<sup>2</sup></p>
+                </div>
+
+                <a class="header__button button button-order" href="#order">оставить заявку</a>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="window-modal-2" id="m2">
+            <div class="window__modal" id="modal-1">
+              <span class="button-close-modal">&times;</span>
+
+              <img class="modal-img" src="img/window-2.jpg" alt="окно одностворчатое" width="425">
+              <div class="modal__content">
+                <div class="modal__content-item">
+                  <p class="">Размер</p>
+                  <p class="">700*1400</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Створки</p>
+                  <p>одна поворотно-откидная</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Профиль</p>
+                  <p>Brbox-60</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Стеклопакет</p>
+                  <p>Стеклопакет Guard 24мм</p>
+                </div>
+                <div class="modal__content-item modal__prise">
+                  <p>От 12300 руб/м<sup>2</sup></p>
+                </div>
+
+                <a class="header__button button button-order" href="#order">оставить заявку</a>
+              </div>
+
+            </div>
+
+
+            <div class="window__modal" id="modal-2">
+              <span class="button-close-modal">&times;</span>
+
+              <img class="modal-img" src="img/window-2.jpg" alt="окно одностворчатое" width="425">
+              <div class="modal__content">
+                <div class="modal__content-item">
+                  <p class="">Размер</p>
+                  <p class="">700*1400</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Створки</p>
+                  <p>одна поворотно-откидная</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Профиль</p>
+                  <p>Brbox-75</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Стеклопакет</p>
+                  <p>Стеклопакет Guard 24мм</p>
+                </div>
+                <div class="modal__content-item modal__prise">
+                  <p>От 12300 руб/м<sup>2</sup></p>
+                </div>
+
+                <a class="header__button button button-order" href="#order">оставить заявку</a>
+              </div>
+
+            </div>
+
+            <div class="window__modal" id="modal-3">
+              <span class="button-close-modal">&times;</span>
+
+              <img class="modal-img" src="img/window-2.jpg" alt="окно одностворчатое" width="425">
+              <div class="modal__content">
+                <div class="modal__content-item">
+                  <p class="">Размер</p>
+                  <p class="">700*1400</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Створки</p>
+                  <p>одна поворотно-откидная</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Профиль</p>
+                  <p>Dx-M</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Стеклопакет</p>
+                  <p>Стеклопакет Guard 24мм</p>
+                </div>
+                <div class="modal__content-item modal__prise">
+                  <p>От 12300 руб/м<sup>2</sup></p>
+                </div>
+
+                <a class="header__button button button-order" href="#order">оставить заявку</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="window-modal-3" id="m3">
+            <div class="window__modal" id="modal-1">
+              <span class="button-close-modal">&times;</span>
+
+              <img class="modal-img" src="img/window-3.jpg" alt="окно одностворчатое" width="425">
+              <div class="modal__content">
+                <div class="modal__content-item">
+                  <p class="">Размер</p>
+                  <p class="">700*1400</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Створки</p>
+                  <p>одна поворотно-откидная</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Профиль</p>
+                  <p>Brbox-60</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Стеклопакет</p>
+                  <p>Стеклопакет Guard 24мм</p>
+                </div>
+                <div class="modal__content-item modal__prise">
+                  <p>От 12300 руб/м<sup>2</sup></p>
+                </div>
+
+                <a class="header__button button button-order" href="#order">оставить заявку</a>
+              </div>
+
+            </div>
+
+
+            <div class="window__modal" id="modal-2">
+              <span class="button-close-modal">&times;</span>
+
+              <img class="modal-img" src="img/window-3.jpg" alt="окно одностворчатое" width="425">
+              <div class="modal__content">
+                <div class="modal__content-item">
+                  <p class="">Размер</p>
+                  <p class="">700*1400</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Створки</p>
+                  <p>одна поворотно-откидная</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Профиль</p>
+                  <p>Brbox-75</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Стеклопакет</p>
+                  <p>Стеклопакет Guard 24мм</p>
+                </div>
+                <div class="modal__content-item modal__prise">
+                  <p>От 12300 руб/м<sup>2</sup></p>
+                </div>
+
+                <a class="header__button button button-order" href="#order">оставить заявку</a>
+              </div>
+
+            </div>
+
+            <div class="window__modal" id="modal-3">
+              <span class="button-close-modal">&times;</span>
+
+              <img class="modal-img" src="img/window-3.jpg" alt="окно одностворчатое" width="425">
+              <div class="modal__content">
+                <div class="modal__content-item">
+                  <p class="">Размер</p>
+                  <p class="">700*1400</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Створки</p>
+                  <p>одна поворотно-откидная</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Профиль</p>
+                  <p>Dx-M</p>
+                </div>
+                <div class="modal__content-item">
+                  <p>Стеклопакет</p>
+                  <p>Стеклопакет Guard 24мм</p>
+                </div>
+                <div class="modal__content-item modal__prise">
+                  <p>От 12300 руб/м<sup>2</sup></p>
+                </div>
+
+                <a class="header__button button button-order" href="#order">оставить заявку</a>
+              </div>
+
+            </div>
+          </div>
+
+      </section>
+    </div>
+
+
+
+    </div>
+    </section>
+    </div>
+
+
+    <section class="description">
+      <h2 class="section-title">Характеристики профиля</h2>
+
+      <div class="description__tabs-wrapper">
+
+        <div class="description__titles-wrapper">
+          <ul class="description__tabs-titles">
+            <li class="description__title title-active" data-tab="description-tab-1">Brox-60</li>
+            <li class="description__title" data-tab="description-tab-2">Brox-75</li>
+            <li class="description__title" data-tab="description-tab-3">Brox-80</li>
+            <li class="description__title" data-tab="description-tab-4">Dx-M</li>
+          </ul>
+        </div>
+
+        <!-- <div class="container"> -->
+
+        <div class="description__cards-wrapper">
+
+          <div class="description__card" id="description-tab-1">
+            <img class="description__card-img" src="img/profile.jpg" alt="профиль окна">
+
+            <div class="description__card-content">
+              <h3 class="description__card-title section-title">Brox-60</h3>
+              <p class="description__card-text">Пластиковые окна из профиля Brox-60 заслужили безупречную
+                репутацию благодаря более чем 50-летнему опыту производства в Германии. Их элегантный дизайн и
+                безупречное качество воплощают в себе настоящую немецкую классику.
+              </p>
+              <div class="button-container">
+                <a class="description__button button button-order" href="#order">оставить заявку</a>
+              </div>
+
+
+
+              <!-- </div> -->
+            </div>
+          </div>
+
+          <div class="description__card hidden-tab-content" id="description-tab-2">
+            <img class="description__card-img" src="img/profile.jpg" alt="профиль окна">
+            <div class="description__card-content">
+              <h3 class="description__card-title section-title">Brox-75</h3>
+              <p class="description__card-text">Пластиковые окна из профиля Brox-75 заслужили безупречную
+                репутацию благодаря более чем 50-летнему опыту производства в Германии. Их элегантный дизайн и
+                безупречное качество воплощают в себе настоящую немецкую классику.
+              </p>
+              <div class="button-container">
+                <a class="description__button button button-order" href="#order">оставить заявку</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="description__card hidden-tab-content" id="description-tab-3">
+            <img class="description__card-img" src="img/profile.jpg" alt="профиль окна">
+            <div class="description__card-content">
+              <h3 class="description__card-title section-title">Brox-80</h3>
+              <p class="description__card-text">Пластиковые окна из профиля Brox-80 заслужили безупречную
+                репутацию благодаря более чем 50-летнему опыту производства в
+                Германии. Их элегантный дизайн и безупречное качество воплощают в себе настоящую немецкую классику.
+              </p>
+              <div class="button-container">
+                <a class="description__button button button-order" href="#order">оставить заявку</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="description__card hidden-tab-content" id="description-tab-4">
+            <img class="description__card-img" src="img/profile.jpg" alt="профиль окна">
+            <div class="description__card-content">
+              <h3 class="description__card-title section-title">Dx-M</h3>
+              <p class="description__card-text">Пластиковые окна из профиля Dx-M заслужили безупречную
+                репутацию благодаря более чем 50-летнему опыту производства в
+                Германии. Их элегантный дизайн и безупречное качество воплощают в себе настоящую немецкую классику.
+              </p>
+              <div class="button-container">
+                <a class="description__button button button-order" href="#order">оставить заявку</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="doors-wrapper" id="doors">
+        <h2 class="section-title">Двери</h2>
+        <div class="doors__cards">
+          <div class="doors__option-1">
+            <h3 class="card-title">Пластиковая дверь штульповая Brbox-60</h3>
+            <img class="card-img" src="img/door-1.jpg" alt="дверь" width="320">
+            <p class="card-price">От 10000 руб/м<sup>2</sup></p>
+            <button class="card-details" type="button" data-modal="modal-d-1">Подробнее<img class="details-arrow"
+                src="img/details-arrow.svg"></button>
+          </div>
+
+          <div class="doors__option-1">
+            <h3 class="card-title">Пластиковая дверь штульповая Brbox-75</h3>
+            <img class="card-img" src="img/door-1.jpg" alt="дверь" width="320">
+            <p class="card-price">От 11000 руб/м<sup>2</sup></p>
+            <button class="card-details" type="button" data-modal="modal-d-2">Подробнее<img class="details-arrow"
+                src="img/details-arrow.svg"></button>
+          </div>
+
+          <div class="doors__option-1">
+            <h3 class="card-title">Пластиковая дверь штульповая Dx-M</h3>
+            <img class="card-img" src="img/door-1.jpg" alt="дверь" width="320">
+            <p class="card-price">От 10000 руб/м<sup>2</sup></p>
+            <button class="card-details" type="button" data-modal="modal-d-3">Подробнее<img class="details-arrow"
+                src="img/details-arrow.svg"></button>
+          </div>
+        </div>
+
+
+        <div class="window-door-1 window-modal-1">
+
+          <div class="door__modal" id="modal-d-1">
+            <span class="button-close-modal">&times;</span>
+
+            <img class="modal-img" src="img/door-1.jpg" alt="дверь" width="425">
+            <div class="modal__content">
+              <div class="modal__content-item">
+                <p class="">Размер</p>
+                <p class="">1300*2150</p>
+              </div>
+              <div class="modal__content-item">
+                <p>Профиль</p>
+                <p>Brbox-60</p>
+              </div>
+              <div class="modal__content-item">
+                <p>Стеклопакет</p>
+                <p>Стеклопакет Guard 24мм</p>
+              </div>
+              <div class="modal__content-item">
+                <p>Фурнитура</p>
+                <p>усиленные петли, многозапорная немецкая фурнитура, низкий порог, активная и пассивная створка
+                </p>
+              </div>
+              <div class="modal__content-item modal__prise">
+                <p>От 12300 руб/м<sup>2</sup></p>
+              </div>
+
+              <a class="header__button button button-order" href="#order">оставить заявку</a>
+            </div>
+          </div>
+
+          <div class="door__modal" id="modal-d-2">
+            <span class="button-close-modal">&times;</span>
+
+            <img class="modal-img" src="img/door-1.jpg" alt="дверь" width="425">
+            <div class="modal__content">
+              <div class="modal__content-item">
+                <p class="">Размер</p>
+                <p class="">1300*2150</p>
+              </div>
+              <div class="modal__content-item">
+                <p>Профиль</p>
+                <p>Brbox-75</p>
+              </div>
+              <div class="modal__content-item">
+                <p>Стеклопакет</p>
+                <p>Стеклопакет Guard 24мм</p>
+              </div>
+              <div class="modal__content-item">
+                <p>Фурнитура</p>
+                <p>усиленные петли, многозапорная немецкая фурнитура, активная и пассивная створка
+                </p>
+              </div>
+              <div class="modal__content-item modal__prise">
+                <p>От 12300 руб/м<sup>2</sup></p>
+              </div>
+
+              <a class="header__button button button-order" href="#order">оставить заявку</a>
+            </div>
+          </div>
+
+          <div class="door__modal" id="modal-d-3">
+            <span class="button-close-modal">&times;</span>
+            <img class="modal-img" src="img/door-1.jpg" alt="дверь" width="425">
+            <div class="modal__content">
+              <div class="modal__content-item">
+                <p class="">Размер</p>
+                <p class="">1200*2150</p>
+              </div>
+              <div class="modal__content-item">
+                <p>Профиль</p>
+                <p>Dx-M</p>
+              </div>
+              <div class="modal__content-item">
+                <p>Стеклопакет</p>
+                <p>Стеклопакет Guard 24мм</p>
+              </div>
+              <div class="modal__content-item">
+                <p>Фурнитура</p>
+                <p>многозапорная немецкая фурнитура, активная и пассивная створка
+                </p>
+              </div>
+              <div class="modal__content-item modal__prise">
+                <p>От 12300 руб/м<sup>2</sup></p>
+              </div>
+
+              <a class="header__button button button-order" href="#order">оставить заявку</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+
+
+    <div class="container">
+      <section class="action" id="actions">
+        <h2 class="section-title">Акции</h2>
+        <div class="action__card-wrapper">
+          <div class="action__card-1">
+            <h3><span>бесплатная</span> доставка по городу</h3>
+            <div class="card__content">
+              <p class="card__content-text">Доставка окон осуществляется штатными автомобильными компаниями</p>
+              <div class="card__content-img-wrapper">
+                <img class="card__content-img" src="img/avto.jpg" alt="грузовой автомобиль">
+              </div>
+            </div>
+          </div>
+          <div class="action__card-2">
+            <h3>Окна с <span>энергосберегающими стеклопакетами</span> по цене обычных!</h3>
+            <div class="card__subtitle">
+              <p class="card__subtitle-text">До конца акции</p>
+            </div>
+
+            <div class="action__card-timer">
+              <dl class="countdown">
+                <div class="item">
+                  <dt class="days-text">дней</dt>
+                  <dd class="days">00</dd>
+                </div>
+                <div class="item">
+                  <dt class="hours-text">часов</dt>
+                  <dd class="hours">00</dd>
+                </div>
+                <div class="item">
+                  <dt class="minutes-text">минут</dt>
+                  <dd class="minutes">00</dd>
+                </div>
+                <div class="item">
+                  <dt class="seconds-text">секунд</dt>
+                  <dd class="seconds">00</dd>
+                </div>
+              </dl>
+            </div>
+
+            <a class="header__button button button-order" href="#order">оставить заявку</a>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="advantage" id="about">
+        <h2 class="section-title">Почему выбирают нас</h2>
+        <div class="advantage__cards-wrapper">
+          <div class="advantage__card">
+            <img class="card__subtitle-icon" src="img/about-icon-1.svg" alt="молния" width="60" alt="иконка">
+            <h3>Качество</h3>
+            <p class="advantage__card-content">
+              От производства до установки. Качественные материалы и фурнитура
+            </p>
+            <p class="advantage__card-accent">Гарантия до 5 летлет</p>
+          </div>
+          <div class="advantage__card">
+            <img class="card__subtitle-icon" src="img/about-icon-2.svg" alt="молния" width="60" alt="иконка">
+            <h3>Цена</h3>
+            <p class="advantage__card-content">
+              Подберём лучшее решение для любого бюджета
+            </p>
+            <p class="advantage__card-accent">Гарантия до 5 летлет</p>
+          </div>
+          <div class="advantage__card">
+            <img class="card__subtitle-icon" src="img/about-icon-3.svg" alt="молния" width="60" alt="иконка">
+            <h3>Бесплатный замер</h3>
+            <p class="advantage__card-content">
+              Выезд замерщика для точного замера совершенно бесплатно
+            </p>
+            <p class="advantage__card-accent">Гарантия до 5 летлет</p>
+          </div>
+          <div class="advantage__card">
+            <img class="card__subtitle-icon" src="img/about-icon-4.svg" alt="молния" width="60" alt="иконка">
+            <h3>Лидеры</h3>
+            <p class="advantage__card-content">
+              Более 10 лет опыта в производстве и установке окон и дверей
+            </p>
+            <p class="advantage__card-accent">Гарантия до 5 летлет</p>
+          </div>
+          <div class="advantage__card">
+            <img class="card__subtitle-icon" src="img/about-icon-5.svg" alt="молния" width="60" alt="иконка">
+            <h3>Хорошие отзывы</h3>
+            <p class="advantage__card-content">
+              99% довольных клиентов
+            </p>
+            <p class="advantage__card-accent">Гарантия до 5 летлет</p>
+          </div>
+          <div class="advantage__card">
+            <img class="card__subtitle-icon" src="img/about-icon-6.svg" alt="молния" width="60" alt="иконка">
+            <h3>Точные сроки</h3>
+            <p class="advantage__card-content">
+              Установка точно в срок — без задержек
+            </p>
+            <p class="advantage__card-accent">Гарантия до 5 летлет</p>
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="contacts-us" id="contacts">
+        <h2 class="section-title">Наши контакты</h2>
+        <div class="contact-us__location">
+
+          <div class="contacts-us__address-wrapper">
+            <address class="contacts-us__address-items">
+              <p>Адресс:</p>
+              <p>г.Липецк, ул.Московская, д.123/а</p>
+            </address>
+            <adress class="phone">
+              <p>Телефон:</p>
+              <a class="phone-item" href="tel: +79003235545">8(900)323-55-45</a>
+            </adress>
+            <adress class="mail">
+              <p>Эл-почта:</p>
+              <a class="mail-item" href="mail:oknaLipeck.@yandex.ru">oknaLipeck.@yandex.ru</a>
+            </adress>
+            <p class="info">Время работы с 8.00 до 20.00 без перерыва и выходных</p>
+            <p class="contacts-us__button">
+              <a class="button button-order" href="#order">оставить заявку</a>
+            </p>
+          </div>
+
+
+          <div class="contacts__map">
+            <div class="map" style="position:relative;overflow:hidden;"><a
+                href="https://yandex.ru/maps/org/bolshoy_sfinks/217629533120/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:0px;">Большой Сфинкс</a><a
+                href="https://yandex.ru/maps/121452/giza-governorate/category/landmark_attraction/89683368508/?utm_medium=mapframe&utm_source=maps"
+                style="color:#eee;font-size:12px;position:absolute;top:14px;">Достопримечательность в Мухафазе
+                Эль‑Гиза</a><iframe
+                src="https://yandex.ru/map-widget/v1/?ll=31.130393%2C29.976946&mode=search&oid=217629533120&ol=biz&z=15"
+                width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="questions" id="questions">
+        <h2 class="section-title">Популярные вопросы</h2>
+        <div class="questions__accordion">
+          <div class="question__accordion-item">
+            <div class="questions__item">
+              <p class="question">Есть ли у вас рассрочка?</p>
+              <img class="question__icon" src="img/arrow-next.svg">
+            </div>
+            <div class="question__content">
+              <p>
+                Да, рассрочка на три месяца, первоначальный взнос 25%.
+              </p>
+            </div>
+          </div>
+
+          <div class="question__accordion-item">
+            <div class="questions__item">
+              <p class="question">Срок изготовления, доставки и монтажа?</p>
+              <img class="question__icon" src="img/arrow-next.svg">
+            </div>
+            <div class="question__content">
+              <p>
+                Сроки зависят от количества и наименования. Точные сроки будут известны при оформлении заказа.
+              </p>
+            </div>
+          </div>
+
+          <div class="question__accordion-item">
+            <div class="questions__item">
+              <p class="question">Как можно оформить заказ?</p>
+              <img class="question__icon" src="img/arrow-next.svg">
+            </div>
+            <div class="question__content">
+              <p>
+                Заказ можно оформить на дому после замера в оффисе или на сайте оставить заявку и свами свяжется
+                менеджер.
+              </p>
+            </div>
+          </div>
+          <div class="question__accordion-item">
+            <div class="questions__item">
+              <p class="question">Как можно оплатить товар?</p>
+              <img class="question__icon" src="img/arrow-next.svg">
+            </div>
+            <div class="question__content">
+              <p>
+                Оплатить заказ можно в любом офисе наличными или банковскими картами.
+              </p>
+            </div>
+          </div>
+          <div class="question__accordion-item">
+            <div class="questions__item">
+              <p class="question">Можно ли вернутьт товар?</p>
+              <img class="question__icon" src="img/arrow-next.svg">
+            </div>
+            <div class="question__content">
+              <p>
+                Процедура возврата товара регламентируется статьей 26.1 Федерального закона "О защите прав
+                потребителей".
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="request" id="order">
+        <h2 class="section-title">Оставить заявку</h2>
+        <div class="request__wrapper">
+
+          <form class="uniForm obratnuj-zvonok">
+            <h3>Заказать звонок</h3>
+            <p>Оставьте заявку, менеджер вам перезвонит и запишет вас на бесплатный замер, если замеры не нужны,
+              проконсультирует и
+              оформит заказ</p>
+
+            <input type="hidden" name="project_name" value="Site Name">
+            <input type="hidden" name="admin_email" value="agarcov310781igor@gmail.com">
+            <input type="hidden" name="form_subject" value="Form Subject 2">
+
+            <div class="form-zvonok">
+              <div>
+                <label>
+                  <input class="form-zvonk__item" type='text' name='username' placeholder="Введите ваше имя" required>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input class="form-zvonk__item" type="tel" placeholder="Введите номер телефона" required>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input class="form-zvonk__item" type='text' name='question' placeholder="Ваше сообщение" required>
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input class="form-zvonk__check" type='checkbox' name='question' value="agree" required>
+                  Оставляя заявку, Вы даёте согласие на обработку <a href="privacy.html" target="_blank">персональных данных</a>
+                </label>
+              </div>
+              <input class="bot-send-mail button request__button" type='submit' value='заказать звонок'>
+            </div>
+
+            <p class="work-time">Время работы с 8.00 до 20.00 без перерыва и выходных</p>
+          </form>
+        </div>
+      </section>
+    </div>
+
+
+  </main>
+
+  <footer class="footer">
+
+    <img src="img/logo-1.svg" alt="логотип" class="header__logo logo">
+
+
+    <ul class="footer__menu">
+      <li class="footer__menu-item">
+        <a class="footerr__menu-link" href="#windows">Окна</a>
+      </li>
+      <li class="footerr__menu-item">
+        <a class="footer__menu-link" href="#doors">Двери</a>
+      </li>
+      <li class="footer__menu-item">
+        <a class="footer__menu-link" href="#actions">Акции</a>
+      </li>
+      <li class="footer__menu-item">
+        <a class="footer__menu-link" href="#about">О нас</a>
+      </li>
+      <li class="footer__menu-item">
+        <a class="footer__menu-link" href="#contacts">Контакты</a>
+      </li>
+      <li class="footer__menu-item">
+        <a class="footer__menu-link" href="#questions">Вопросы</a>
+      </li>
+    </ul>
+
+    <div class="footer__contact">
+      <address class="contacts-us__address-items">
+        <p>Адресс:</p>
+        <p>г.Липецк, ул.Московская, д.123/а</p>
+      </address>
+      <adress class="phone">
+        <p>Телефон:</p>
+        <a class="phone-item" href="tel: +79003235545">8(900)323-55-45</a>
+      </adress>
+      <adress class="mail">
+        <p>Эл-почта:</p>
+        <a class="mail-item" href="mail:oknaLipeck.@yandex.ru">oknaLipeck.@yandex.ru</a>
+      </adress>
+      <p class="info">Время работы с 8.00 до 20.00 без перерыва и выходных</p>
+    </div>
+    <div class="footer__description">
+      <div class="footer__link-politics">
+        <a href="privacy.html" target="_blank">Политика конфедициальности</a>
+      </div>
+      <p>Информация, опубликованная на сайте, служит для ознакомительных целей, не является публичной офертой. © 2026
+        Все
+        права
+        защищены.</p>
+      <p>© 2026 Все права
+        защищены.</p>
+    </div>
+  </footer>
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
