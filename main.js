@@ -217,6 +217,33 @@ accordionItemsWrapper.forEach((el) => {
     });
 
 
+     //появление эл-тов
+        function onEntry(entry) {
+            entry.forEach(change => {
+                if (change.isIntersecting) {
+                    change.target.classList.add('shadow-in');
+                } 
+                
+            });
+        }
+        let options = {
+            threshold: [0.7]
+        };
+        let observer = new IntersectionObserver(onEntry, options);
+        let elementsWindows = document.querySelectorAll(".windows__option-1");
+        let elementsDoors = document.querySelectorAll(".doors__option-1");
+       
+
+        for (let elm of elementsWindows) {
+            observer.observe(elm);
+        }
+
+        for (let elm of elementsDoors) {
+            observer.observe(elm);
+        }
+       
+
+
 //form
 
 const mailPath = './mail.php'
