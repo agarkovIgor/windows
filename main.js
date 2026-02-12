@@ -227,7 +227,7 @@ accordionItemsWrapper.forEach((el) => {
             });
         }
         let options = {
-            threshold: [0.7]
+            threshold: [0.5]
         };
         let observer = new IntersectionObserver(onEntry, options);
         let elementsWindows = document.querySelectorAll(".windows__option-1");

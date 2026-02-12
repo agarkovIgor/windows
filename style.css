@@ -963,12 +963,14 @@ margin-right: 10px;
   box-shadow: 5px 5px 5px #212c33;
   transform: scale(0.9);
   transition: all 1s ease;
+  opacity: 0.2;
 }
 
 .windows__option-1.shadow-in,
 .doors__option-1.shadow-in {
   box-shadow: 10px 10px 12px #212c33;
   transform: scale(1);
+  opacity: 1;
 }
 
 
