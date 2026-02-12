@@ -241,6 +241,18 @@ accordionItemsWrapper.forEach((el) => {
         for (let elm of elementsDoors) {
             observer.observe(elm);
         }
+
+        function onEntryTwo(entry) {
+            entry.forEach(change => {
+                if (change.isIntersecting) {
+                    change.target.classList.add('shadow-in');
+                } 
+                
+            });
+        }
+        let optionsTwo = {
+            threshold: [0.5]
+        };
        
 
 
