@@ -539,6 +539,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 55px;
+  border-radius: 5px;
 }
 
 .door__modal .button-close-modal {
@@ -704,6 +705,12 @@ dt {
   flex-direction: column;
   justify-content: space-between;
   gap: 40px;
+}
+
+.card__subtitle-icon {
+  opacity: 0;
+  transform:  scale(0.2);
+  transition: all 0.5s ease;
 }
 
 .card__subtitle-icon {
@@ -966,12 +973,20 @@ margin-right: 10px;
   opacity: 0.2;
 }
 
+.card__subtitle-icon.shadow-in,
 .windows__option-1.shadow-in,
 .doors__option-1.shadow-in {
   box-shadow: 10px 10px 12px #212c33;
   transform: scale(1);
   opacity: 1;
 }
+
+
+/* .card__subtitle-icon.opacity-in {
+  opacity: 1;
+  transform:  scale(1);
+} */
+
 
 
 

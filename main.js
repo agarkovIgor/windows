@@ -229,9 +229,14 @@ accordionItemsWrapper.forEach((el) => {
         let options = {
             threshold: [0.5]
         };
+        let optionsTwo = {
+            threshold: [1]
+        };
         let observer = new IntersectionObserver(onEntry, options);
+        let observerTwo = new IntersectionObserver(onEntry, optionsTwo);
         let elementsWindows = document.querySelectorAll(".windows__option-1");
         let elementsDoors = document.querySelectorAll(".doors__option-1");
+        let elementIcons = document.querySelectorAll(".card__subtitle-icon");
        
 
         for (let elm of elementsWindows) {
@@ -242,17 +247,19 @@ accordionItemsWrapper.forEach((el) => {
             observer.observe(elm);
         }
 
-        function onEntryTwo(entry) {
-            entry.forEach(change => {
-                if (change.isIntersecting) {
-                    change.target.classList.add('shadow-in');
-                } 
+        // function onEntryTwo(entry) {
+        //     entry.forEach(change => {
+        //         if (change.isIntersecting) {
+        //             change.target.classList.add('opacity-in');
+        //         } 
                 
-            });
+        //     });
+        // }
+
+        for (let elm of elementIcons) {
+            observerTwo.observe(elm);
         }
-        let optionsTwo = {
-            threshold: [0.5]
-        };
+        
        
 
 
