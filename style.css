@@ -584,6 +584,15 @@ body {
   padding: 20px;
   background-color: var(--bg-color-medium);
   text-align: left;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.action__card-1 a {
+    /* display: inline-block; */
+    max-width: 200px;
+    align-self: center;
 }
 
 .action__card-1 h3 {
