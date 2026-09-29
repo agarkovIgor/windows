@@ -149,7 +149,7 @@ for(let card of doorsCards) {
 
 
 //обратный отсчёт
-let countdownDate = new Date('Jun 30, 2026 15:50:00').getTime();
+let countdownDate = new Date('Jun 30, 2027 15:50:00').getTime();
 
 function format(value) {
   return value < 10 ? '0' + value : value;
